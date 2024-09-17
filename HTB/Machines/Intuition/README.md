@@ -51,11 +51,12 @@
 
 ## Overview
 
-> https://app.hackthebox.com/machines/Intuition
+> - [Machine Link](https://app.hackthebox.com/machines/Intuition)
+> - [Medium Story](https://medium.com/@samaellovecraft/hack-the-box-intuition-61c574f00a7e)
 
-This machine presents a series of security challenges that require a methodical approach to achieve full compromise. The path to exploitation involves multiple stages of vulnerability discovery and chaining.
+This machine presents a series of security challenges that require a methodical approach to obtain root-level access. The path to exploitation involves multiple stages of vulnerability discovery and chaining.
 
-Key findings include **XSS (Cross-Site Scripting)**, outdated and vulnerable software in production (**CVE-2023-24329**) causing sensitive file disclosure through a combination of **SSRF (Server-Side Request Forgery)** and **LFI (Local File Inclusion)**, a **weak password policy**, **insecure filesystem permissions** and **command injection**. By chaining these vulnerabilities and misconfigurations, I successfully escalated privileges from an unprivileged user to admin and ultimately achieved full system access.
+During my testing of the Comprezzor environment, I identified several vulnerabilities across multiple subdomains, leading to a full compromise. Key findings include **XSS (Cross-Site Scripting)**, outdated and vulnerable software in production (**CVE-2023-24329**) causing sensitive file disclosure through a combination of **SSRF (Server-Side Request Forgery)** and **LFI (Local File Inclusion)**, a **weak password policy**, **insecure filesystem permissions** and **command injection**. By chaining these vulnerabilities and misconfigurations, I successfully escalated privileges from an unprivileged user to admin and ultimately achieved full system access.
 
 | **Vulnerability**                           | **Description & Impact**                                                                                                       | **Mitigation Recommendations**                                                                                                                |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -605,7 +606,7 @@ int check_auth(const char* auth_key) {
 }
 ```
 
-The `check_auth` function revealed that the binary checks for a valid authentication key by comparing its MD5 hash against a stored hash (`AUTH_KEY_HASH`). Using this function as a reference, I wrote a [program](./crack_auth.c) to brute-force the missing 4 characters of the authentication key. Here's the command to compile it:
+The `check_auth` function revealed that the binary checks for a valid authentication key by comparing its MD5 hash against a stored hash (`AUTH_KEY_HASH`). Using this function as a reference, I wrote a [program](crack_auth.c) to brute-force the missing 4 characters of the authentication key. Here's the command to compile it:
 
 ```bash
 gcc crack_auth.c -o crack_auth -lssl -lcrypto
