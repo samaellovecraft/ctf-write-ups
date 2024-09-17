@@ -1,0 +1,331 @@
+pspy - version: v1.2.1 - Commit SHA: f9e6a1590a4312b9faa093d8dc84e19567977a6d
+
+
+     ██▓███    ██████  ██▓███ ▓██   ██▓
+    ▓██░  ██▒▒██    ▒ ▓██░  ██▒▒██  ██▒
+    ▓██░ ██▓▒░ ▓██▄   ▓██░ ██▓▒ ▒██ ██░
+    ▒██▄█▓▒ ▒  ▒   ██▒▒██▄█▓▒ ▒ ░ ▐██▓░
+    ▒██▒ ░  ░▒██████▒▒▒██▒ ░  ░ ░ ██▒▓░
+    ▒▓▒░ ░  ░▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░  ██▒▒▒ 
+    ░▒ ░     ░ ░▒  ░ ░░▒ ░     ▓██ ░▒░ 
+    ░░       ░  ░  ░  ░░       ▒ ▒ ░░  
+                   ░           ░ ░     
+                               ░ ░     
+
+Config: Printing events (colored=true): processes=true | file-system-events=false ||| Scanning for processes every 100ms and on inotify events ||| Watching directories: [/usr /tmp /etc /home /var /opt] (recursive) | [] (non-recursive)
+Draining file system events due to startup...
+done
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=44068  | tee pspy [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=44067  | ./pspy64 [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=44030  | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=43875  | ./agent -connect 10.10.14.156:11601 -ignore-cert [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=43197  | -bash [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=43196  | sshd: dev_acc@pts/2  [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=43106  | sshd: dev_acc [priv] [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=42573  | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=41906  | [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=108   PID=41905  | /usr/sbin/uuidd --socket-activation [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=15229  | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=13348  | /usr/bin/gpg-agent --supervised [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=9302   | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=6970   | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=6746   | /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=3736   | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=3298   | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=3212   | -bash [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=3211   | sshd: dev_acc@pts/1  [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=3170   | (sd-pam) [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=1001  PID=3169   | /lib/systemd/systemd --user [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=3129   | sshd: dev_acc [priv] [0m
+2024/05/02 21:41:38 [32;1mCMD: UID=1003  PID=2700   | -bash [0m
+2024/05/02 21:41:38 [32;1mCMD: UID=1003  PID=2699   | sshd: lopez@pts/0    [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=2629   | sshd: lopez [priv]   [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=2336   | /opt/firefox-latest/firefox-bin -contentproc -childID 6 -isForBrowser -prefsLen 28489 -prefMapSize 235790 -jsInitLen 234952 -parentBuildID 20240401114208 -greomni /opt/firefox-latest/omni.ja -appomni /opt/firefox-latest/browser/omni.ja -appDir /opt/firefox-latest/browser {63038573-ab37-434c-b76d-bcd611782cfd} 151 true tab [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=2281   | /opt/firefox-latest/firefox-bin -contentproc -childID 5 -isForBrowser -prefsLen 28489 -prefMapSize 235790 -jsInitLen 234952 -parentBuildID 20240401114208 -greomni /opt/firefox-latest/omni.ja -appomni /opt/firefox-latest/browser/omni.ja -appDir /opt/firefox-latest/browser {15a9c872-7538-415a-b366-d77b2c7ee214} 151 true tab [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=2273   | /opt/firefox-latest/firefox-bin -contentproc -childID 4 -isForBrowser -prefsLen 28489 -prefMapSize 235790 -jsInitLen 234952 -parentBuildID 20240401114208 -greomni /opt/firefox-latest/omni.ja -appomni /opt/firefox-latest/browser/omni.ja -appDir /opt/firefox-latest/browser {ae17e9ca-c765-4aca-9d4c-1378e905eb72} 151 true tab [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=2271   | /opt/firefox-latest/firefox-bin -contentproc -childID 3 -isForBrowser -prefsLen 28489 -prefMapSize 235790 -jsInitLen 234952 -parentBuildID 20240401114208 -greomni /opt/firefox-latest/omni.ja -appomni /opt/firefox-latest/browser/omni.ja -appDir /opt/firefox-latest/browser {7e907d41-d9c8-4dde-a60b-81db42af40a2} 151 true tab [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=2269   | /opt/firefox-latest/firefox-bin -contentproc -parentBuildID 20240401114208 -sandboxingKind 0 -prefsLen 30444 -prefMapSize 235790 -appDir /opt/firefox-latest/browser {0a885a1f-74e0-4e52-b7ea-efc7cf9404c7} 151 true utility [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=2182   | /opt/firefox-latest/firefox-bin -contentproc -childID 1 -isForBrowser -prefsLen 22602 -prefMapSize 235790 -jsInitLen 234952 -parentBuildID 20240401114208 -greomni /opt/firefox-latest/omni.ja -appomni /opt/firefox-latest/browser/omni.ja -appDir /opt/firefox-latest/browser {6567e92c-8ceb-4258-81cd-6d6cb10d4200} 151 true tab [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=2160   | /opt/firefox-latest/firefox-bin -contentproc -parentBuildID 20240401114208 -prefsLen 21979 -prefMapSize 235790 -appDir /opt/firefox-latest/browser {97c62f05-7819-4435-a4bc-3a94a2d93238} 151 true socket [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=2097   | /usr/bin/firefox --marionette --remote-debugging-port 1812 --remote-allow-hosts localhost --remote-allow-origins http://127.0.0.1:1812/,http://localhost:1812/,http://[::1]:1812/ -no-remote -profile /tmp/rust_mozprofilegFCnd6 [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=2086   | /usr/bin/geckodriver --port=17912 --websocket-port=1812 --allow-origins http://127.0.0.1:1812 http://localhost:1812 http://[::1]:1812 [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=2082   | /usr/bin/python3 /root/scripts/automate/make_req.py [0m
+2024/05/02 21:41:38 [32;1mCMD: UID=1003  PID=2029   | (sd-pam) [0m
+2024/05/02 21:41:38 [32;1mCMD: UID=1003  PID=2028   | /lib/systemd/systemd --user [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=2025   | python3 /app/code/app.py [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=2008   | x11vnc -usepw -forever -shared -rfbport 5900 -rfbportv6 5900 -display :99.0 [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1956   | /usr/bin/fluxbox -display :99.0 [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1880   | Xvfb :99 -screen 0 1360x1020x24 -fbdir /var/tmp -dpi 96 -listen tcp -noreset -ac +extension RANDR -auth /tmp/xvfb-run.kLWbzZ/Xauthority [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1879   | java -Dwebdriver.chrome.driver=/usr/bin/chromedriver -Dwebdriver.edge.driver=/usr/bin/msedgedriver -Dwebdriver.gecko.driver=/usr/bin/geckodriver -jar /opt/selenium/selenium-server.jar standalone --session-request-timeout 300 --session-retry-interval 15 --healthcheck-interval 120 --bind-host false --config /opt/selenium/config.toml --heartbeat-period 30 --reject-unsupported-caps false [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1865   | python3 -m websockify --web /opt/bin/noVNC 7900 localhost:5900 [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1848   | /bin/sh /usr/bin/xvfb-run --server-num=99 --listen-tcp --server-args=-screen 0 1360x1020x24 -fbdir /var/tmp -dpi 96 -listen tcp -noreset -ac +extension RANDR /usr/bin/fluxbox -display :99.0 [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1844   | bash /opt/bin/noVNC/utils/novnc_proxy --listen 7900 --vnc localhost:5900 [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1843   | bash /opt/bin/start-selenium-standalone.sh [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1841   | python3 /ftp/server.py [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1840   | bash -c /opt/bin/start-selenium-standalone.sh; EXIT_CODE=$?; kill -s SIGINT `cat /var/run/supervisor/supervisord.pid`; exit $EXIT_CODE [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1839   | bash /opt/bin/start-novnc.sh [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1838   | bash /opt/bin/start-vnc.sh [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1837   | bash /opt/bin/start-xvfb.sh [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1804   | /usr/bin/python3 /usr/bin/supervisord --configuration /etc/supervisord.conf [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=1200  PID=1738   | bash /opt/bin/entry_point.sh [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1709   | sh ./setup.sh [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1703   | /usr/bin/containerd-shim-runc-v2 -namespace moby -id 25d42bb4575ded3910ee79199868c591ee5c94c014db580efd2978071cbff40a -address /run/containerd/containerd.sock [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1662   | /usr/bin/docker-proxy -proto tcp -host-ip 127.0.0.1 -host-port 4444 -container-ip 172.21.0.4 -container-port 4444 [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1659   | /usr/bin/containerd-shim-runc-v2 -namespace moby -id fd917e9d634bc32ce7d78793bda8b3973567f9bedfca1ad43779671d27a559fb -address /run/containerd/containerd.sock [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1646   | sh ./setup.sh [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1620   | /usr/bin/docker-proxy -proto tcp -host-ip 127.0.0.1 -host-port 8080 -container-ip 172.21.0.2 -container-port 80 [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1607   | /usr/bin/containerd-shim-runc-v2 -namespace moby -id 3683b096d3f781005428491c755e5964ae519f3bd16b288c9b4e13dde7c7b24f -address /run/containerd/containerd.sock [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1340   | /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1336   | /usr/bin/suricata -D --af-packet -c /etc/suricata/suricata.yaml --pidfile /run/suricata.pid [0m
+2024/05/02 21:41:38 [36;1mCMD: UID=33    PID=1331   | nginx: worker process                            [0m
+2024/05/02 21:41:38 [36;1mCMD: UID=33    PID=1330   | nginx: worker process                            [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1329   | nginx: master process /usr/sbin/nginx -g daemon on; master_process on; [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1314   | sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1312   | /sbin/agetty -o -p -- \u --noclear tty1 linux [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1310   | /usr/bin/containerd [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1291   | /usr/sbin/cron -f -P [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=964    | /usr/sbin/ModemManager [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=115   PID=947    | avahi-daemon: chroot helper [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=944    | /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=938    | /usr/libexec/udisks2/udisksd [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=936    | /lib/systemd/systemd-logind [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=934    | /usr/lib/snapd/snapd [0m
+2024/05/02 21:41:38 [32;1mCMD: UID=107   PID=930    | /usr/sbin/rsyslogd -n -iNONE [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=929    | /usr/libexec/polkitd --no-debug [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=927    | /usr/sbin/irqbalance --foreground [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=103   PID=922    | @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=115   PID=921    | avahi-daemon: running [intuition.local] [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=871    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=803    | /sbin/dhclient -1 -4 -v -i -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/dhclient6.eth0.leases eth0 [0m
+2024/05/02 21:41:38 [36;1mCMD: UID=998   PID=799    | /usr/local/sbin/laurel --config /etc/laurel/config.toml [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=797    | /sbin/auditd [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=768    | /usr/bin/vmtoolsd [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=765    | /usr/bin/VGAuthService [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=104   PID=736    | /lib/systemd/systemd-timesyncd [0m
+2024/05/02 21:41:38 [35;1mCMD: UID=102   PID=725    | /lib/systemd/systemd-resolved [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=684    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=682    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=581    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=578    | [0m
+2024/05/02 21:41:38 [36;1mCMD: UID=101   PID=553    | /lib/systemd/systemd-networkd [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=514    | /lib/systemd/systemd-udevd [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=512    | /sbin/multipathd -d -s [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=511    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=509    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=508    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=507    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=474    | /lib/systemd/systemd-journald [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=414    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=413    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=359    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=327    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=326    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=267    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=266    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=257    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=239    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=238    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=237    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=236    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=235    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=234    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=233    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=232    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=231    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=230    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=229    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=228    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=227    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=226    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=225    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=224    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=223    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=222    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=221    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=220    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=219    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=218    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=217    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=216    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=215    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=214    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=213    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=212    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=211    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=210    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=209    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=207    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=206    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=203    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=199    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=198    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=197    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=196    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=193    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=191    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=190    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=187    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=177    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=176    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=175    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=174    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=173    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=172    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=171    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=170    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=169    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=168    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=166    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=165    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=164    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=163    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=162    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=161    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=160    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=159    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=158    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=157    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=156    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=155    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=154    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=107    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=103    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=101    | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=94     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=93     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=89     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=88     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=87     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=86     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=85     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=84     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=83     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=82     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=81     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=80     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=79     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=78     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=77     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=76     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=75     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=74     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=73     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=72     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=71     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=70     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=69     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=68     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=67     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=66     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=65     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=64     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=63     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=62     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=61     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=60     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=59     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=58     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=57     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=56     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=55     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=54     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=53     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=52     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=51     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=50     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=48     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=47     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=46     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=45     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=44     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=43     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=42     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=41     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=40     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=39     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=38     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=37     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=36     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=35     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=34     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=32     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=31     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=29     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=27     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=26     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=25     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=23     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=22     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=21     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=20     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=19     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=18     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=17     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=16     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=15     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=14     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=13     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=12     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=11     | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=8      | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=6      | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=5      | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=4      | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=3      | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=2      | [0m
+2024/05/02 21:41:38 [34;1mCMD: UID=0     PID=1      | /sbin/init [0m
+2024/05/02 21:41:43 [34;1mCMD: UID=0     PID=44081  | [0m
+2024/05/02 21:41:43 [34;1mCMD: UID=0     PID=44082  | sshd: [accepted]     [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44119  | sh -c /usr/bin/env -i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d > /run/motd.dynamic.new [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44120  | sh -c /usr/bin/env -i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d > /run/motd.dynamic.new [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44121  | [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44122  | [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44123  | /bin/sh /etc/update-motd.d/00-header [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44124  | /bin/sh /etc/update-motd.d/00-header [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44125  | run-parts --lsbsysinit /etc/update-motd.d [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44126  | run-parts --lsbsysinit /etc/update-motd.d [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44130  | cut -c -80 [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44129  | [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44128  | /bin/sh /etc/update-motd.d/50-motd-news [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44127  | cat /var/cache/motd-news [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44131  | run-parts --lsbsysinit /etc/update-motd.d [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44132  | [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44133  | cat /var/lib/update-notifier/updates-available [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44135  | /bin/sh /etc/update-motd.d/90-updates-available [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44134  | /bin/sh /etc/update-motd.d/90-updates-available [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44136  | /bin/sh /etc/update-motd.d/90-updates-available [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44137  | run-parts --lsbsysinit /etc/update-motd.d [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44138  | run-parts --lsbsysinit /etc/update-motd.d [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44139  | /bin/sh /etc/update-motd.d/91-release-upgrade [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44141  | /bin/sh /etc/update-motd.d/91-release-upgrade [0m
+2024/05/02 21:41:53 [36;1mCMD: UID=???   PID=44140  | ???[0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44142  | /bin/sh /etc/update-motd.d/91-release-upgrade [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44143  | run-parts --lsbsysinit /etc/update-motd.d [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44144  | /bin/sh /etc/update-motd.d/95-hwe-eol [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44145  | run-parts --lsbsysinit /etc/update-motd.d [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44146  | /bin/sh /etc/update-motd.d/97-overlayroot [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44147  | /bin/sh /usr/bin/egrep overlayroot|/media/root-ro|/media/root-rw /proc/mounts [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44148  | sort -r [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44149  | run-parts --lsbsysinit /etc/update-motd.d [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44150  | /bin/sh /etc/update-motd.d/98-reboot-required [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=0     PID=44151  | sshd: dev_acc [priv] [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=1001  PID=44152  | sshd: dev_acc@pts/3  [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=1001  PID=44153  | -bash [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=1001  PID=44154  | -bash [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=1001  PID=44155  | -bash [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=1001  PID=44156  | /bin/sh /usr/bin/lesspipe [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=1001  PID=44158  | /bin/sh /usr/bin/lesspipe [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=1001  PID=44157  | /bin/sh /usr/bin/lesspipe [0m
+2024/05/02 21:41:53 [34;1mCMD: UID=1001  PID=44159  | -bash [0m
+2024/05/02 21:41:59 [34;1mCMD: UID=1001  PID=44160  | -bash [0m
+2024/05/02 21:42:00 [34;1mCMD: UID=1001  PID=44161  | ls --color=auto [0m
+2024/05/02 21:42:01 [34;1mCMD: UID=1001  PID=44162  | -bash [0m
+2024/05/02 21:42:03 [34;1mCMD: UID=1001  PID=44169  | -bash [0m
+2024/05/02 21:42:04 [34;1mCMD: UID=1001  PID=44170  | ls --color=auto [0m
+2024/05/02 21:42:06 [34;1mCMD: UID=1001  PID=44204  | netstat -a [0m
+2024/05/02 21:42:32 [34;1mCMD: UID=1001  PID=44241  | ls --color=auto [0m
+2024/05/02 21:42:37 [34;1mCMD: UID=1001  PID=44242  | -bash [0m
+2024/05/02 21:42:41 [34;1mCMD: UID=1001  PID=44283  | mkdir systemd [0m
+2024/05/02 21:42:43 [34;1mCMD: UID=1001  PID=44284  | -bash [0m
+2024/05/02 21:42:44 [34;1mCMD: UID=1001  PID=44285  | -bash [0m
+2024/05/02 21:42:46 [34;1mCMD: UID=1001  PID=44286  | ls --color=auto [0m

