@@ -1,0 +1,36 @@
+# Nmap 7.94SVN scan initiated Sun May 12 04:09:18 2024 as: nmap -p- -A -Pn -oN enumeration/tcp.all.nmap 10.129.67.247
+Nmap scan report for solarlab.htb (10.129.67.247)
+Host is up (0.054s latency).
+Not shown: 65530 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          nginx 1.24.0
+|_http-server-header: nginx/1.24.0
+|_http-title: SolarLab Instant Messenger
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+6791/tcp open  http          nginx 1.24.0
+|_http-server-header: nginx/1.24.0
+|_http-title: Did not follow redirect to http://report.solarlab.htb:6791/
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+|_clock-skew: 3s
+| smb2-time: 
+|   date: 2024-05-12T08:11:30
+|_  start_date: N/A
+
+TRACEROUTE (using port 135/tcp)
+HOP RTT      ADDRESS
+1   53.90 ms 10.10.14.1
+2   54.29 ms solarlab.htb (10.129.67.247)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May 12 04:12:03 2024 -- 1 IP address (1 host up) scanned in 164.78 seconds
